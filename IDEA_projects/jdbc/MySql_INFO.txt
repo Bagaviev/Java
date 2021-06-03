@@ -1,0 +1,24 @@
+===================INFO====================
+workbench была бага - пофиксил кодировки там, теперь работает (чек коммент на стековерфлоу) - ОСТОРОЖНО ! перестала работать Идея после этого, вернул назад
+Запуск сам при старте винды + ворбенч все отображает.
+Надо делать кастомный коннект для DB Navigator - дроч с таймзонами jdbc:mysql://localhost:3306/mysql?serverTimezone=UTC&useSSL=false
+	можно делать команду в mysql shell но это тупо, лучше в настройках Идеи один раз прописать.
+	вообще SET GLOBAL time_zone = '+3:00'; помогло делал и там и там (в идее и в консоли бд)
+===================START===================
+Server:
+	Служба MySQL80 в WIN+R > services.msc > run manual (для сервака)
+	Все службы: sc queryex type=service state=all | find /i "SERVICE_NAME:"
+	Состояние одной конкретной: sc query myService
+	Или net start MySQL57 / net stop MySQL57
+Client:
+	Просмотр с сосноли: mysql -u admin -p   > enter pwd > OK  (делать в папке sqlserver/bin)
+	Ну либо отдельным приложением CLI
+	Инфа о сервере: mysql > status
+	Ну а дальше как обычно: USE DB, Show smth...
+	show processlist
+===============CREDENTIALS=================
+root
+root
+
+admin
+12345Bulat_

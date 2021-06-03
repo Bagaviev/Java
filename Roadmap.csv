@@ -1,0 +1,61 @@
+Это мой GAP - маркеры по пустыне на пути к оазису
+
+Java:
+	✓ Syntax
+	✓ Core (Generics)
+	✓ Multithreading (Stream API)
+	Collections (Reflection API/Logging)
+=======================	
+Java Libs:
+	✓ Swing
+	✓ JavaFX
+	✓ Maven
+	✓ Solid
+	✓ JUnit/Mockito
+	✓ Jackson/JAXB
+	✓ JDBC
+	Документация
+	Java EE (Alishev) -- аналог спринга, но менее популярный, шлак кароче
+		
+	JS
+	Hibernate
+	Spring (Web sample)
+==================
+OS:
+	Android SDK (Shitty Java app sample)
+=======================
+(*) Kotlin (Good App sample):
+	- JetBrains - https://hyperskill.org/onboarding/tracks/3
+=======================
+(*) Design tools:
+	Figma (Mockplus, Axure)
+	Flutter (Node.js, React Native)
+    Dart
+=======================
+✓ деревья
+✓ бинпоиск (divide & conquer)
+✓ рекурсии
+✓ хэш-таблицы
+✓ графы
+✓ жадные алгоритмы (рюкзак - динамическое программирование)
+✓ gof / mvc
+✓ Git`овские моменты
+сортировки   // https://javarush.ru/groups/posts/3021-chto-sprashivajut-na-sobesedovanii-obzor-algoritmov-chastjh-1
+комбинаторика // https://github.com/jwasham/coding-interview-university#dynamic-programming
+
+(***) всякий дроч алгоритмический (оптимизации, непрерывное прогр) + cs50
+(**) книги типа чистого кода и тд.
+
+==========yand conf insides===============
+https://www.levels.fyi/
+знать цели руководства на полгода вперед
+чуть шире мыслить, чем своя специальность
+решать проблемы, а не тикеты
+не слишком уважать как принято
+опционы/rsu
+почему я хочу быть сениором или это навязанное мне сверху? Чем нравится туда и идти. Развитие либо в продакт либо в сениор/лид
+цепочка почему - найти ответ кем быть и тд.
+дельта между собой из будущего и сейчас (gap)
+иметь план развития внутри компании
+ждать не нужно, запросы и инициатива от себя
+не выходить на работу не пообщавшись со своим руководителем

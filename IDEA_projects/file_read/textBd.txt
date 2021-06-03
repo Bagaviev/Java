@@ -1,0 +1,2 @@
+7       productName                   price   qua 
+8       televizor                     22400   3   

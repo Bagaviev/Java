@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CDVIEWER">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../Pictures/МРТ/CDVIEWER.JAR!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

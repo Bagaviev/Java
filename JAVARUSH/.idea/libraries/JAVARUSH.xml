@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="JAVARUSH">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaRushIdeaPlugin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/project.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

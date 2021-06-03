@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.javarush.task.task24.task2408","c":"Dog","l":"Dog(String)","u":"%3Cinit%3E(java.lang.String)"},{"p":"com.javarush.task.task24.task2408","c":"Dog","l":"toSayable(int)"}];updateSearchResults();

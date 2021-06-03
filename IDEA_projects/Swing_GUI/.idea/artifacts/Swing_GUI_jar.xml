@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Swing_GUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Swing_GUI_jar</output-path>
+    <root id="archive" name="Swing_GUI.jar">
+      <element id="module-output" name="Swing_GUI" />
+    </root>
+  </artifact>
+</component>
