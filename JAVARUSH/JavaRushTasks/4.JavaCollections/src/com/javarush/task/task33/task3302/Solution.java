@@ -5,8 +5,10 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import javax.net.ssl.HttpsURLConnection;
 import java.io.IOException;
 import java.io.StringWriter;
+import java.net.HttpURLConnection;
 
 /* 
 Вторая сериализация в JSON

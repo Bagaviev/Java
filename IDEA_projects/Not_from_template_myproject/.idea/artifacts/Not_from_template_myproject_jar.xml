@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Not_from_template_myproject:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Not_from_template_myproject_jar</output-path>
-    <root id="archive" name="Not_from_template_myproject.jar">
-      <element id="module-output" name="Not_from_template_myproject" />
-    </root>
-  </artifact>
-</component>
