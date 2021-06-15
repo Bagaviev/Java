@@ -1,4 +1,4 @@
-import util.Sortable;
+    import util.Sortable;
 import util.Timer;
 
    /*
@@ -8,7 +8,7 @@ import util.Timer;
     Space: o(1)
      */
 
-public class Bubble implements Sortable {
+public class Bubble implements Sortable {       // попарное сравнение и уменьшение размера прохода с каждым проходом
 
     public int[] sort(int[] array) {        // вот это тру пузырек
         for (int j = array.length - 1; j > 0; j--) {
@@ -23,7 +23,7 @@ public class Bubble implements Sortable {
         return array;
     }
 
-    // ALTERNATIVE MY VARIANT (Это не совсем каноничный пузырек, чтото другое)      // 7 сек
+    // ALTERNATIVE MY VARIANT (Это не совсем каноничный пузырек, гибрид пузырька и выбором)      // 7 сек
        /* for (int i = 0; i < array.length; i++) {
             for (int j = i; j < array.length; j++) {
                 if (array[i] > array[j]) {  // самое мелкое всплывет слева как говно в воде

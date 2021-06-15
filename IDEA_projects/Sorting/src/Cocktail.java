@@ -1,12 +1,12 @@
 import util.Sortable;
 import util.Timer;
 
-public class Cocktail implements Sortable {
+public class Cocktail implements Sortable {     // Шейкерная, пузырек в два действия за проход (мин-макс)
        /*
-    100k -  14sec
+    100k -  14 sec
 
     Time: o(n^2)
-    Space: o(2)
+    Space: o(1)
      */
 
     public int[] sort(int[] array) {
