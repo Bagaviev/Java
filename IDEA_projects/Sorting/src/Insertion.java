@@ -1,11 +1,11 @@
 import util.Sortable;
 import util.Timer;
 
-public class Insertion {        //
+public class Insertion implements Sortable {        //  Сдвиги больших элтов вправо относительно i-ого элеманта
     /*
     100k -  6.4 sec
 
-    Time: o(n^2 - n)       // Быстрее, чем выбором
+    Time: o(n^2 / 2)       // Быстрее, чем выбором
     Space: o(n) + o(1)
      */
 
@@ -14,8 +14,8 @@ public class Insertion {        //
             int temp = array[i];
             int j = i;
 
-            while(j > 0 && array[j - 1] > temp) {
-                array[j - 1] = array[j];
+            while(j > 0 && array[j - 1] > temp) {       // элты сдвигаются влево стирая исходное temp. Затем в освободившееся
+                array[j] = array[j - 1];        // место слева вставляется temp который был в памяти
                 j--;
             }
             array[j] = temp;
