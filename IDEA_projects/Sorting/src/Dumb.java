@@ -27,6 +27,11 @@ public class Dumb implements Sortable {
         return array;
     }
 
+    @Override
+    public void sort(int[] array, int min, int max) {
+        return;
+    }
+
     public static void main(String[] args) {
         Sortable sort = new Dumb();
         System.out.println(Timer.estimateTime(sort, 7000));        // нули справа могут быть если size меньше 6 указан, это норма

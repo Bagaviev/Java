@@ -23,6 +23,11 @@ public class Bubble implements Sortable {       // попарное сравне
         return array;
     }
 
+    @Override
+    public void sort(int[] array, int min, int max) {
+        return;
+    }
+
     // ALTERNATIVE MY VARIANT (Это не совсем каноничный пузырек, гибрид пузырька и выбором)      // 7 сек
        /* for (int i = 0; i < array.length; i++) {
             for (int j = i; j < array.length; j++) {

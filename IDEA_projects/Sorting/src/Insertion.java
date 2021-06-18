@@ -23,6 +23,11 @@ public class Insertion implements Sortable {        //  Сдвиги больш�
         return array;
     }
 
+    @Override
+    public void sort(int[] array, int min, int max) {
+        return;
+    }
+
     public static void main(String[] args) {
         Sortable sort = new Selection();
         System.out.println(Timer.estimateTime(sort, 100000));

@@ -33,6 +33,11 @@ public class Cocktail implements Sortable {     // Шейкерная, пузы�
         return array;
     }
 
+    @Override
+    public void sort(int[] array, int min, int max) {
+        return;
+    }
+
     public static void main(String[] args) {
         Sortable sort = new Cocktail();
         System.out.println(Timer.estimateTime(sort, 100000));
