@@ -1,0 +1,25 @@
+N	        100_000
+==========================
+Heap	    0,025
+Comb	    0,03
+Quick	    0,034
+Merge	    0,057
+Shell	    1,228
+Insertion	6,432
+Selection	6,531
+Cocktail	14,255
+Bubble	    22,816
+Dumb	    -
+
+N           100_000_000
+==========================
+Quick	    8,47
+Comb	    16,02
+Merge	    20,25
+Heap	    27,48
+Bubble	    -
+Cocktail	-
+Dumb	    -
+Insertion	-
+Selection	-
+Shell	    -

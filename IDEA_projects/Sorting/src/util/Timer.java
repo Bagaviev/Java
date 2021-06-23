@@ -11,6 +11,7 @@ public class Timer {
         Date start = new Date();
         sorting.sort(array);
         sorting.sort(array, 0, size - 1);
+        sorting.sort(array, size - 1);
         Date stop = new Date();
 
         Printer.print(array);

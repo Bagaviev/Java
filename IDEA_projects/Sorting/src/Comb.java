@@ -32,8 +32,13 @@ public class Comb implements Sortable {     // Расческа тут шири�
         return;
     }
 
+    @Override
+    public void sort(int[] array, int n) {
+        return;
+    }
+
     public static void main(String[] args) {
         Sortable sort = new Comb();
-        System.out.println(Timer.estimateTime(sort, 100000));
+        System.out.println(Timer.estimateTime(sort, 100_000));
     }
 }

@@ -28,6 +28,11 @@ public class Bubble implements Sortable {       // попарное сравне
         return;
     }
 
+    @Override
+    public void sort(int[] array, int n) {
+        return;
+    }
+
     // ALTERNATIVE MY VARIANT (Это не совсем каноничный пузырек, гибрид пузырька и выбором)      // 7 сек
        /* for (int i = 0; i < array.length; i++) {
             for (int j = i; j < array.length; j++) {
@@ -43,6 +48,6 @@ public class Bubble implements Sortable {       // попарное сравне
 
     public static void main(String[] args) {
         Sortable sort = new Bubble();
-        System.out.println(Timer.estimateTime(sort, 100000));        // нули справа могут быть если size меньше 6 указан, это норма
+        System.out.println(Timer.estimateTime(sort, 100_000));        // нули справа могут быть если size меньше 6 указан, это норма
     }
 }

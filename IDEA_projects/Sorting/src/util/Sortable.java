@@ -1,6 +1,7 @@
 package util;
 
 public interface Sortable {
-    int[] sort(int [] array);
-    void sort(int[] array, int min, int max);
+    void sort(int[] array, int min, int max);   // quick
+    void sort(int[] array, int n);  // merge
+    int[] sort(int [] array);   // all other
 }

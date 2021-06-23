@@ -14,6 +14,11 @@ public class Quick  implements Sortable {     // Выбирается опорн
         return new int[0];
     }
 
+    @Override
+    public void sort(int[] array, int n) {
+        return;
+    }
+
     public void sort(int[] array, int min, int max) {
             if (array.length == 0)// условие выхода из рекурсии,  если длина массива равна 0
                 return;
@@ -52,6 +57,6 @@ public class Quick  implements Sortable {     // Выбирается опорн
 
     public static void main(String[] args) {
         Sortable sort = new Quick();
-        System.out.println(Timer.estimateTime(sort, 100000));
+        System.out.println(Timer.estimateTime(sort, 100_000));
     }
 }
