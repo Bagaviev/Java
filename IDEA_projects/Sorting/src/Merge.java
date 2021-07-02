@@ -45,8 +45,7 @@ public class Merge implements Sortable {     // Расческа тут шири
         while (i < left && j < right) {     // сравниваем 2 элемента из подмассивов
             if (l[i] <= r[j]) {
                 a[k++] = l[i++];    // заполняем буфер меньшими
-            }
-            else {
+            } else {
                 a[k++] = r[j++];
             }
         }

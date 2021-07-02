@@ -40,7 +40,7 @@ OS:
 ✓ жадные алгоритмы (рюкзак - динамическое программирование)
 ✓ gof / mvc
 ✓ Git`овские моменты
-сортировки   // https://javarush.ru/groups/posts/3021-chto-sprashivajut-na-sobesedovanii-obzor-algoritmov-chastjh-1
+✓ сортировки (потом еще radix/count/timsort как нибудь добъем)
 комбинаторика // https://github.com/jwasham/coding-interview-university#dynamic-programming
 
 (***) всякий дроч алгоритмический (оптимизации, непрерывное прогр) + cs50

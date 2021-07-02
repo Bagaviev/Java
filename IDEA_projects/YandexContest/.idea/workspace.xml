@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dad3859b-de84-44b0-874c-997fd08c1ade" name="Default Changelist" comment="" />
+    <list default="true" id="dad3859b-de84-44b0-874c-997fd08c1ade" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexContest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YandexContest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/YandexContest/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/src/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/src/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task37/task3704/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/4.JavaCollections/src/com/javarush/task/task37/task3704/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out/production/4.JavaCollections/com/javarush/task/task33/task3302/Solution$Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out/production/4.JavaCollections/com/javarush/task/task33/task3302/Solution$Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out/production/4.JavaCollections/com/javarush/task/task33/task3302/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out/production/4.JavaCollections/com/javarush/task/task33/task3302/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out/production/4.JavaCollections/com/javarush/task/task37/task3704/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out/production/4.JavaCollections/com/javarush/task/task37/task3704/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/out/production/3.JavaMultithreading/com/javarush/task/task24/task2413/Brick.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/out/production/3.JavaMultithreading/com/javarush/task/task24/task2413/Brick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/out/production/3.JavaMultithreading/com/javarush/task/task25/task2502/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/out/production/3.JavaMultithreading/com/javarush/task/task25/task2502/WorkerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/out/production/3.JavaMultithreading/com/javarush/task/task25/task2502/WorkerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/out/production/3.JavaMultithreading/com/javarush/task/task25/task2508/TaskManipulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/out/production/3.JavaMultithreading/com/javarush/task/task25/task2508/TaskManipulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Roadmap.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Roadmap.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -15,6 +54,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1uVMG593qN55Z1Z5g6L40aVQxXe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -22,6 +68,21 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RunManager">
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task" />
+      <module name="YandexContest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="dad3859b-de84-44b0-874c-997fd08c1ade" name="Default Changelist" comment="" />
@@ -31,5 +92,23 @@
       <updated>1624746203947</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1624746265741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624746265741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1624746265741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624746265741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1624746265741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624746265741" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1624746265741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624746265741" />
   </component>
 </project>
