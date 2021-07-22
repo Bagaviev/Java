@@ -10,7 +10,7 @@ import java.util.Observable;
 import java.util.Observer;
 import java.util.concurrent.LinkedBlockingQueue;
 
-public class Cook extends Observable implements Runnable { // наблюдатель
+public class Cook extends Observable implements Runnable { // наблюдаемый
     private final String name;
     private boolean busy;
     private LinkedBlockingQueue<Order> queue;

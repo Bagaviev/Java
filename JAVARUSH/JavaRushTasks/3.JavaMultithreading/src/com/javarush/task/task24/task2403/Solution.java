@@ -9,10 +9,19 @@ import java.util.EventListener;
 Так-с... сопоставим
 */
 public class Solution {
-    public static class A implements Serializable {
+
+    int abc() {
+        return 1;
     }
 
-    public static class B implements Remote {
+    public static void main(String[] args) {
+        System.out.println("sd");
+    }
+
+    /*public static class A implements Serializable {
+    }
+
+    static class B implements Remote {
     }
 
     public static class C extends ArrayDeque {
@@ -26,5 +35,5 @@ public class Solution {
 
     public static void main(String[] args) {
 
-    }
+    }*/
 }
