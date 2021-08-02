@@ -3,7 +3,9 @@ package com.javarush.task.task24.task2403;
 import java.io.Serializable;
 import java.rmi.Remote;
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.EventListener;
+import java.util.List;
 
 /* 
 Так-с... сопоставим
@@ -15,7 +17,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        System.out.println("sd");
+        String str = new String("23");
+        System.out.println(str == "23");
     }
 
     /*public static class A implements Serializable {
