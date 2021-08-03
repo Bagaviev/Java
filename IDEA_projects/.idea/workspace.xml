@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8fc2dd3-6435-41ec-a5d7-034cdcdf8e7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JAVARUSH/JavaRushTasks/3.JavaMultithreading/src/com/javarush/task/task24/task2403/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVARUSH/JavaRushTasks/3.JavaMultithreading/src/com/javarush/task/task24/task2403/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVARUSH/JavaRushTasks/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVARUSH/JavaRushTasks/out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JAVARUSH/JavaRushTasks/out/production/3.JavaMultithreading/com/javarush/task/task24/task2403/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JAVARUSH/JavaRushTasks/out/production/3.JavaMultithreading/com/javarush/task/task24/task2403/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,5 +49,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1627902198552" />
+    <state x="72" y="0" key="new project wizard" timestamp="1627995134576">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="72" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1627995134576" />
   </component>
 </project>
