@@ -43,13 +43,13 @@ MINGW64 ~/advertisement (seg1256_household)
 ============================================Alana`s suggestions====================================================
 git init
 git remote add origin 
-git remote add origin https://github.com/Bagaviev/Java
+git remote add origin https://
 git remote add origin 
 git remote remove origin
 
 git remote show origin
 
-git clone 
+git clone https://
 
 я тупо сделала себе папку на балабите. туда складываю все, што хочу отдать в гит.
 сделала там гит инит или что-то вроде того при первой настройке. 
@@ -59,7 +59,6 @@ git commit -m "updated all"
 git push origin master
 и все улетает на удаленный репо в гит
 
-git clone pull origin master
 git pull origin master --allow-unrelated-histories
 
 ====
@@ -76,8 +75,36 @@ https://server-gu.ru/gitlab-merge-request/
 https://opensource.com/article/18/1/step-step-guide-git
 https://ru.stackoverflow.com/questions/431839/%D0%92-%D1%87%D0%B5%D0%BC-%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D0%B0-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-git-add-add-a-add-u-%D0%B8-add/431840 
 
+Если ошибка при pull с сервака, то надо параметр --allow-unrelated-histories делать
+Если потом конфликт, то руками исправлять через git mergetool (ебаный свет какая параша). Выйти из этой бабуйни q
+Потом руками исправлять файл и коммитить пушить, либо mergetool либо git checkout --ours filename, потом add, commit
 
+Конфликты merge:
+когда например изменим строку через веб-интерфейс, а затем ее же через локальный файл, и попытаемся сделать коммит и пуш. В результате все наебнется.
+
+git status выведет сообщение с подсветкой файла конфликтного
+git log --merge выведет авторов и время коммитов
+git diff выведет сами строки конфликтные в файлах
+(cверху до черты - наше, снизу удаленное репо)
+
+1. Проблема решается вручную через редактор выбором правильного варианта, затиранием >>> указателей и повторным коммитом пушом. (работает)
+
+2. еще так просто выбрать файл (работает)
+git checkout --ours filename.c
+git checkout --theirs filename.c
+git add filename.c
+git commit -m "using theirs"
+git pull origin master --allow-unrelated-histories
+
+3. можно еще git mergetool откроет ту самую залупу vimdiff (плохо работает, оставляет >>> ==== в файлах)
+:diffget RE выбор нужного файла
+:wqa
+git commit git push
+git clean
+
+=====================================================
 git reflog логи гита
+git log тоже логи (exit q)
 git reset --hard commit_hash - локальный файлы поменялись на состояние из гита
 git revert hash - новый коммит с обратными изменениями, потом push надо сделать
 git pull origin master --allow-unrelated-histories изменили локальную копию свежой инфой с репы
@@ -86,9 +113,28 @@ git show просто, покажет сам файл изменившийся (
 gitk gui
 head - указатель на выбранный коммит
 
+=====================================================
+Очистка истории коммитов
 
-Если ошибка при pull с сервака, то надо параметр --allow-unrelated-histories делать
-Если потом конфликт, то руками исправлять через git mergetool (ебаный свет какая параша). Выйти из этой бабуйни q
-Потом git checkout --ours filename, потом add, commit
+# Check out to a temporary branch:
+git checkout --orphan TEMP_BRANCH
+
+# Add all the files:
+git add -A
+
+# Commit the changes:
+git commit -am "Initial commit"
+
+# Delete the old branch:
+git branch -D master
+
+# Rename the temporary branch to master:
+git branch -m master
+
+# Finally, force update to our repository:
+git push -f origin master
+
+=====================================================
+Помощь по команде: git help commit
 
 P.S.Ребятам из СБ привет! Большой брат бдит))

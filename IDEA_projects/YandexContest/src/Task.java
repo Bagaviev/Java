@@ -1,14 +1,13 @@
 import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
+/*
 public class Task {
     static String input;
     static int rows;
     static int cols;
 
     static {
-        try(BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
+        try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
             input = bufferedReader.readLine();
             String[] nums = input.split(" ");
             rows = Integer.parseInt(nums[1]);
@@ -26,8 +25,7 @@ public class Task {
         for (int row_min = 0; row_min < rows; row_min++)
             for (int row_max = row_min; row_max < rows; row_max++)
                 for (int col_min = 0; col_min < cols; col_min++)
-                    for (int col_max = col_min; col_max < cols; col_max++)
-                    {
+                    for (int col_max = col_min; col_max < cols; col_max++) {
                         for (int i = row_min; i <= row_max; i++)
                             for (int j = col_min; j <= col_max; j++)
                                 map[i][j]++;
@@ -61,10 +59,8 @@ public class Task {
         }
     }
 }
+*/
 
-
-/*
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -72,7 +68,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Solution {
+public class Task {
     static class item {     // через treemap не работает, массив тоже нах
         int value;
         String key;
@@ -127,4 +123,3 @@ public class Solution {
         }
     }
 }
-*/
