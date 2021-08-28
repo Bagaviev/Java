@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad3859b-de84-44b0-874c-997fd08c1ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/TestTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/YandexContest/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/YandexContest/Task.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +46,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop_D\OTHER\work_study\Java\IDEA_projects\YandexContest" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task" />
@@ -74,21 +77,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1624746265741">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628761312959">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624746265741" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1624746265741">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1628761312959" />
+    <state width="1323" height="73" key="GridCell.Tab.0.bottom" timestamp="1628771475621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624746265741" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1624746265741">
+    <state width="1323" height="73" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628771475621" />
+    <state width="1323" height="73" key="GridCell.Tab.0.center" timestamp="1628771475621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624746265741" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1624746265741">
+    <state width="1323" height="73" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628771475621" />
+    <state width="1323" height="73" key="GridCell.Tab.0.left" timestamp="1628771475621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624746265741" />
+    <state width="1323" height="73" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628771475621" />
+    <state width="1323" height="73" key="GridCell.Tab.0.right" timestamp="1628771475621">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="73" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628771475621" />
+    <state x="65" y="24" key="new project wizard" timestamp="1629369662200">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1629369662200" />
   </component>
 </project>

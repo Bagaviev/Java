@@ -1,6 +1,5 @@
 import java.io.BufferedReader;
 
-/*
 public class Task {
     static String input;
     static int rows;
@@ -59,8 +58,8 @@ public class Task {
         }
     }
 }
-*/
 
+/*
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
