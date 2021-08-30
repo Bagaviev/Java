@@ -2,24 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bf75fb7-1887-4ece-b303-b5ea38313887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1xPlQ2JlQyMXTjQ4FrHgArfFI8H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -29,21 +37,42 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sorting" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.task136">
+    <configuration name="task1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="task1" />
       <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task136" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task9" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.task1" />
+      <item itemvalue="Application.task9" />
+      <item itemvalue="Application.task136" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.task136" />
+        <item itemvalue="Application.task9" />
+        <item itemvalue="Application.task1" />
       </list>
     </recent_temporary>
   </component>
@@ -56,6 +85,68 @@
       <option name="presentableId" value="Default" />
       <updated>1630264585959</updated>
     </task>
+    <task id="LOCAL-00001" summary="oh shit here we go again">
+      <created>1630267297117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630267297117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="oh shit here we go again" />
+    <option name="LAST_COMMIT_MESSAGE" value="oh shit here we go again" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630342701385">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1630342701385" />
+    <state x="291" y="0" key="CommitChangelistDialog2" timestamp="1630267295795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="291" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1630267295795" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1630343517634">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630343517634" />
+    <state width="1323" height="87" key="GridCell.Tab.0.bottom" timestamp="1630346073861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="87" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630346073861" />
+    <state width="1323" height="87" key="GridCell.Tab.0.center" timestamp="1630346073861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="87" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630346073861" />
+    <state width="1323" height="87" key="GridCell.Tab.0.left" timestamp="1630346073860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="87" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630346073860" />
+    <state width="1323" height="87" key="GridCell.Tab.0.right" timestamp="1630346073861">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="87" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630346073861" />
+    <state width="1323" height="81" key="GridCell.Tab.1.bottom" timestamp="1630342795949">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630342795949" />
+    <state width="1323" height="81" key="GridCell.Tab.1.center" timestamp="1630342795948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630342795948" />
+    <state width="1323" height="81" key="GridCell.Tab.1.left" timestamp="1630342795948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630342795948" />
+    <state width="1323" height="81" key="GridCell.Tab.1.right" timestamp="1630342795949">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630342795949" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1630267300842">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1630267300842" />
   </component>
 </project>
