@@ -13,7 +13,7 @@ public class Heap implements Sortable {        //
         int n = array.length;                       // PriorityQueue можно было сделать на всроенном, но это как то всрато
 
         // Build heap (rearrange array)
-            for (int i = n / 2 - 1; i >= 0; i--)    // почему не с начала загадка, но ок
+        for (int i = n / 2 - 1; i >= 0; i--)    // почему не с начала загадка, но ок
             heapify(array, n, i);                   // бежим с середины элтов вверх рекурсивно, а остатки вниз потом (которые тоже наверх бегут)
 
         // One by one extract an element from heap   / нашли максимум массива и вытолкали его наверх
