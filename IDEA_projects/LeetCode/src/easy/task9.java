@@ -1,4 +1,4 @@
-
+package easy;
 // https://leetcode.com/problems/palindrome-number/
 
 public class task9 {

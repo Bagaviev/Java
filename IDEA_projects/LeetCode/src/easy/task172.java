@@ -1,4 +1,4 @@
-
+package easy;
 // https://leetcode.com/problems/factorial-trailing-zeroes/
 
 public class task172 {
@@ -49,13 +49,13 @@ public class task172 {
     }
 
     public static void main(String[] args) {
-        task172 obj = new task172();
+        easy.task172 obj = new easy.task172();
         System.out.println(obj.trailingZeroes(30));
     }
  */
 
 /*
-public class task172 {
+public class easy.task172 {
     public int trailingZeroes(int n) {
         int cnt = 0;
         BigInteger result = factorial(n);
@@ -73,7 +73,7 @@ public class task172 {
     }
 
     public static void main(String[] args) {
-        task172 obj = new task172();
+        easy.task172 obj = new easy.task172();
         System.out.println(obj.trailingZeroes(30));
     }
 }

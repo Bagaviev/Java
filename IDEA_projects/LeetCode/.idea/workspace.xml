@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bf75fb7-1887-4ece-b303-b5ea38313887" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task172.java" afterDir="false" />
+    <list default="true" id="9bf75fb7-1887-4ece-b303-b5ea38313887" name="Default Changelist" comment="new leetcode portion, first medium task (with help)">
+      <change afterPath="$PROJECT_DIR$/src/medium/task3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/task136.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/task169.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task172.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/task172.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/task9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,58 +47,62 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.task172">
-    <configuration name="task1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="task1" />
-      <module name="LeetCode" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.task3">
     <configuration name="task136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task136" />
+      <option name="MAIN_CLASS_NAME" value="easy.task136" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="task169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task169" />
+      <option name="MAIN_CLASS_NAME" value="easy.task169" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="task172" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task172" />
+      <option name="MAIN_CLASS_NAME" value="easy.task172" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.task3" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="task9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task9" />
+      <option name="MAIN_CLASS_NAME" value="easy.task9" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.task1" />
       <item itemvalue="Application.task9" />
       <item itemvalue="Application.task136" />
       <item itemvalue="Application.task169" />
       <item itemvalue="Application.task172" />
+      <item itemvalue="Application.task3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.task3" />
         <item itemvalue="Application.task172" />
         <item itemvalue="Application.task169" />
         <item itemvalue="Application.task136" />
         <item itemvalue="Application.task9" />
-        <item itemvalue="Application.task1" />
       </list>
     </recent_temporary>
   </component>
@@ -122,65 +129,77 @@
       <option name="project" value="LOCAL" />
       <updated>1630346278796</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new leetcode portion">
+      <created>1630432675844</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630432675844</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oh shit here we go again" />
-    <option name="LAST_COMMIT_MESSAGE" value="oh shit here we go again" />
+    <MESSAGE value="new leetcode portion" />
+    <option name="LAST_COMMIT_MESSAGE" value="new leetcode portion" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630342701385">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1630342701385" />
-    <state x="291" y="0" key="CommitChangelistDialog2" timestamp="1630346277540">
+    <state x="438" y="66" key="#xdebugger.evaluate" timestamp="1630490865725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="291" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1630346277540" />
+    <state x="438" y="66" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1630490865725" />
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1630495457740">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1630495457740" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1630343517634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630343517634" />
-    <state width="1323" height="87" key="GridCell.Tab.0.bottom" timestamp="1630431322807">
+    <state width="1323" height="113" key="GridCell.Tab.0.bottom" timestamp="1630495341484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="87" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630431322807" />
-    <state width="1323" height="87" key="GridCell.Tab.0.center" timestamp="1630431322807">
+    <state width="1323" height="113" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630495341484" />
+    <state width="1323" height="113" key="GridCell.Tab.0.center" timestamp="1630495341484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="87" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630431322807" />
-    <state width="1323" height="87" key="GridCell.Tab.0.left" timestamp="1630431322807">
+    <state width="1323" height="113" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630495341484" />
+    <state width="1323" height="113" key="GridCell.Tab.0.left" timestamp="1630495341484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="87" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630431322807" />
-    <state width="1323" height="87" key="GridCell.Tab.0.right" timestamp="1630431322807">
+    <state width="1323" height="113" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630495341484" />
+    <state width="1323" height="113" key="GridCell.Tab.0.right" timestamp="1630495341484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="87" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630431322807" />
-    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1630430800778">
+    <state width="1323" height="113" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630495341484" />
+    <state width="1323" height="131" key="GridCell.Tab.1.bottom" timestamp="1630493781482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630430800778" />
-    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1630430800778">
+    <state width="1323" height="131" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630493781482" />
+    <state width="1323" height="131" key="GridCell.Tab.1.center" timestamp="1630493781482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630430800778" />
-    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1630430800778">
+    <state width="1323" height="131" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1630493781482" />
+    <state width="1323" height="131" key="GridCell.Tab.1.left" timestamp="1630493781482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630430800778" />
-    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1630430800778">
+    <state width="1323" height="131" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1630493781482" />
+    <state width="1323" height="131" key="GridCell.Tab.1.right" timestamp="1630493781482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630430800778" />
+    <state width="1323" height="131" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1630493781482" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1630427092582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1630427092582" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1630346281565">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1630432678647">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1630346281565" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1630432678647" />
   </component>
 </project>
