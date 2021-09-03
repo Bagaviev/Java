@@ -1,3 +1,47 @@
+Map sort by value
+
+Надо городить stream с comparingByValue()
+
+
+Map last element
+
+Надо скастить в LinkedHashMap()
+Потом у него entrySet() взять
+После уже у последнего .get(size()-1)) сделать, и потом уже у посл entry взять getValue()
+
+
+Ahk scripting
+
+Прикольно скриптинг команд на windows
+
+
+Git merge conflicts
+
+Когда в удаленной репе изменения, и в той же строке мы своё делаем
+Потом пытаемся push сделать, он падает, затем pull и происходит конфликт
+Решается ручным редактом файла проблемного, либо командой git checkout --ours filename.txt
+Повторный pull, затем push
+2 способа очистить историю комиттов есть
+
+
+Mutators
+
+== setters
+
+
+Another strings moment
+
+String str = "et"
+True: str == "et"
+kek = str
+True: str == kek
+Но для new String() false
+
+
+В switch
+
+Только подавать final static string, не final не подойдут
+
 
 Java constructors
 
