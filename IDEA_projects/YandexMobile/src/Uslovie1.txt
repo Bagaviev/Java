@@ -1,0 +1,94 @@
+// OK
+
+Имеется табличный layout, разделяющий экран размера h x w горизонтальными и вертикальными линиями. Координаты, вдоль которых проходят горизонтальные и вертикальные линии, заданы в массивах horizontalLinesY[], verticalLinesX[] в произвольном порядке, начало координат - верхний левый угол экрана, от нуля. Необходимо найти максимальную площадь ячейки в таблице, образованной заданными линиями. Толщину линий не следует учитывать при расчете площади ячейки, например, площадь ячейки, образованной двумя горизонтальными линиями с координатами Y, равными 1 и 2, и двумя вертикальными линиями с координатами X, равными 1 и 2, равна 1. Внешние границы экрана также считаются границами ячеек. Так, если экран имеет ширину 2, то считается, что вертикальная линия с координатой X=1 разделяет его на две равные половины, каждая из которых имеет ширину 1.
+
+Формат ввода
+Первая строка содержит 2 целых числа — 1 < h < 10000, 1 < w < 10000.
+Вторая строка содержит разделенные пробелом элементы массива horizontalLinesY, 0 < horizontalLinesY[i] < h.
+Третья строка содержит разделенные пробелом элементы массива verticalLinesX, 0 < verticalLinesX[i] < w.
+
+Формат вывода
+Площадь максимальной ячейки.
+
+Пример 1
+Ввод	Вывод
+5 4
+1 2 4
+1 3
+4
+Пример 2
+Ввод	Вывод
+5 4
+3 2 1
+2 3
+4
+Примечания
+Вы можете использовать готовую основу для решения с уже реализованным чтением данных.
+Kotlin 1.4.30:
+
+import java.util.Scanner
+
+fun main() {
+    val sc = Scanner(System.`in`)
+
+    val sizeInput = sc.nextLine().split(" ")
+    val h = sizeInput[0].toInt()
+    val w = sizeInput[1].toInt()
+
+    val horizontalLinesY = sc.nextLine().split(" ").let {
+        val array = IntArray(it.size)
+        for (i in 0 until it.size) {
+            array[i] = it[i].toInt()
+        }
+        array
+    }
+
+    val verticalLinesX = sc.nextLine().split(" ").let {
+        val array = IntArray(it.size)
+        for (i in 0 until it.size) {
+            array[i] = it[i].toInt()
+        }
+        array
+    }
+
+    val area = maxArea(h, w, horizontalLinesY, verticalLinesX);
+    println(area);
+}
+
+private fun maxArea(h: Int, w: Int, horizontalLinesY: IntArray, verticalLinesX: IntArray): Long {
+    // ...
+}
+Java:
+
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String[] sizeInput = sc.nextLine().split(" ");
+        int h = Integer.valueOf(sizeInput[0]);
+        int w = Integer.valueOf(sizeInput[1]);
+
+        String[] horizontalLinesInput = sc.nextLine().split(" ");
+
+        int[] horizontalLinesY = new int[horizontalLinesInput.length];
+        for (int i = 0; i < horizontalLinesInput.length; i++) {
+            horizontalLinesY[i] = Integer.valueOf(horizontalLinesInput[i]);
+        }
+
+        String[] verticalLinesInput = sc.nextLine().split(" ");
+
+        int[] verticalLinesX = new int[verticalLinesInput.length];
+        for (int i = 0; i < verticalLinesInput.length; i++) {
+            verticalLinesX[i] = Integer.valueOf(verticalLinesInput[i]);
+        }
+
+        long area = maxArea(h, w, horizontalLinesY, verticalLinesX);
+        System.out.println(area);
+    }
+
+    private static long maxArea(int h, int w, int[] horizontalLinesY, int[] verticalLinesX) {
+        // ...
+    }
+}

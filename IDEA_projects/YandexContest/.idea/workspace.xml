@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dad3859b-de84-44b0-874c-997fd08c1ade" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/TestTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/src/Uslovie1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/src/Uslovie2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/src/Uslovie_task3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../YandexMobile/src/task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tinkoff_task/src/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tinkoff_task/src/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tinkoff_task/tinkoff_task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../tinkoff_task/tinkoff_task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../JAVARUSH/JavaRushTasks/out.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +91,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1628761312959" />
+    <state x="462" y="82" key="FileChooserDialogImpl" timestamp="1633195994627">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="82" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1633195994627" />
     <state width="1323" height="73" key="GridCell.Tab.0.bottom" timestamp="1628771475621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -97,9 +111,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="73" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628771475621" />
-    <state x="65" y="24" key="new project wizard" timestamp="1629369662200">
+    <state x="65" y="24" key="new project wizard" timestamp="1633195995405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1629369662200" />
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1633195995405" />
   </component>
 </project>

@@ -1,18 +1,31 @@
-class A {
-    Double x = 2.0;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
+class A {
+    @NotNull
+    Double x = 2.0;
 
     public static void tripleX(A a) {
         a.x *= 3;
     }
-    public static A reset(A a) {
+
+    public static @NotNull A reset(A a) {
         a = new A();
         System.out.println(a);
         return a;
     }
 
-    public class B {
+    @Nullable
+    public static Integer kek() {
+        int a = 5;
+        return a > 7 ? 1 : null;
+    }
 
+    public class B {
+        Collection<String> col = new ArrayList<>();
     }
 
     public static void main(String[] args) {
