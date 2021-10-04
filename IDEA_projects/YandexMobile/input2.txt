@@ -1,0 +1,5 @@
+3
+Root 0 0 200 200 null
+ViewGroup1 0 0 200 70 Root
+View1 130 20 165 65 ViewGroup1
+145 45

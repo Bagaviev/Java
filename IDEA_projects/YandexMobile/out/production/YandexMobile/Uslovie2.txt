@@ -1,0 +1,90 @@
+B. Куда я попал?
+Ограничение времени	1 секунда
+Ограничение памяти	64.0 Мб
+Ввод	стандартный ввод или input.txt
+Вывод	стандартный вывод или output.txt
+Нужно написать реализацию функции hitTest, которая должна вернуть самую верхнюю по слою дочернюю View, в которую пользователь попал при нажатии.
+На вход подается иерархия View и ViewGroup. При наложении View/ViewGroup одного уровня нужно считать, что выше по иерархии находится та, которая на входе была ниже в списке.
+
+x,y - координаты передаются в системе координат вьюхи, т.е. (0; 0) в левом верхнем углу вью.
+left / top / right / bottom считаются относительно корневого ViewGroup (экрана, то есть это в каком-то смысле getX() / getY()).
+
+Формат ввода
+Первая строка содержит целое положительное число N - количество View и ViewGroup в иерархии.
+Далее идет N строк, каждая из которых описывает определенную View или ViewGroup.
+Формат строки: Имя View (строка из букв и цифр без пробелов), пробел, 4 числа, разделенных пробелами (left, top, right, bottom) и имя родительской View (строка из букв и цифр без пробелом или null для корневой View).
+И последняя строки - два целых положительных числа, разделенных пробелом - координаты x и y, куда нажал пользователь.
+
+Формат вывода
+Имя View, в которую попал пользователь или null, если такой View нет.
+
+Пример 1
+Ввод	Вывод
+1
+Root 0 0 100 100 null
+70 60
+Root
+Пример 2
+Ввод	Вывод
+1
+Root 0 0 10 10 null
+50 5
+null
+Пример 3
+Ввод	Вывод
+3
+Root 0 0 200 200 null
+ViewGroup1 0 0 200 70 Root
+View1 130 20 165 65 ViewGroup1
+145 45
+View1
+Примечания
+Вы можете использовать следующий код как основу для решения. Нужно построить иерархию View из входных данных (дописать функцию parseViewHierarchy) и реализовать саму функцию hitTest.
+Kotlin 1.4.30:
+
+import java.util.Scanner
+
+fun main() {
+    val sc = Scanner(System.`in`)
+    val count = sc.nextLine().toInt()
+
+    val lines = mutableListOf<String>()
+    repeat(count) { lines.add(sc.nextLine()) }
+
+    val rootView = parseViewHierarchy(lines)
+
+    val point = sc.nextLine().split(" ")
+    val x = point[0].toInt()
+    val y = point[1].toInt()
+    val hitView = hitTest(rootView, x, y)
+
+    println(hitView?.name ?: "null")
+}
+
+fun parseViewHierarchy(lines: List<String>): View {
+    val rootLine = lines[0].split(" ")
+    val root = ViewGroup(rootLine[0], rootLine[1].toInt(),
+            rootLine[2].toInt(), rootLine[3].toInt(), rootLine[4].toInt())
+    // rootLine[5] is parent name, which is null for the root view
+
+    // TODO : parse remaining views
+    // If view has no children, it should be View (and ViewGroup otherwise)
+
+    return root
+}
+
+fun hitTest(root: View, x: Int, y: Int): View? {
+    // TODO : find hit view
+}
+
+open class View(val name: String, val left: Int, val top: Int, val right: Int, val bottom: Int)
+
+class ViewGroup(name: String, left: Int, top: Int, right: Int, bottom: Int,
+) : View(name, left, top, right, bottom) {
+
+    private val children = mutableListOf<View>()
+
+    fun getChildCount() = children.size
+    fun getChildAt(index: Int) = children[index]
+    fun addView(child: View) = children.add(child)
+}
