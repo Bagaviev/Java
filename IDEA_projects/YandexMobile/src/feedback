@@ -1,0 +1,171 @@
+Так в общем прошел этот этап предварительный, дошел до one day offer.
+
+2 секции
+    - первая: платформа + задача
+    - вторая: алгоритмы задачи 2
+======================================================
+
+1) Что было на первой - вопросы от методы класса java object до custom views и kotlin collections.
+Вопросы:
+    Any в kotlin [-] действительно в голову что-то не пришло почитать про это, тк работали все примеры и без этого знания неплохо
+    Еще раз освежить в памяти иерархию Java Collections [+-]
+    Handler еще раз вроде ответил, но можно повторить [+-]
+    Иерархия исключений освежить (можно ли перехватить outOfMemoryException) [+-] - формально можно, но такое
+    static variable доступна ли для нескольких потоков [+] (да в кэше могут быть и статики, нужен volatile)
+    жизненный цикл view [+-] 3 метода в нужном порядке
+    custom view [+] 2 метода для перерисовки
+    kotlin collections [-] ответил мб как в Java.
+    Разница HashMap HashTable [+-] ответил только про потокобезопасность не вспомнил что конкретно, но одна из коллекций не synchronized, про нулл не сказал
+    minSDK, targetSDK, compileSDK [+-] compileSDK поточнее надо (https://proandroiddev.com/compilesdkversion-and-targetsdkversion-what-is-the-difference-b4227c663ba8)
+
+    задача была про MultiIterator - реализовать 3 метода по документации интерфейса (https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html)
+        onNext() [+]
+        hasNext() [+]
+        remove() - тут не успел
+
+tmp = Arraylist
+
+tmp.iterator().hasNext();
+    int cursor;       // тут сделал просто iter1 hasnext | iter2 hasnext true
+    int lastRet = -1;   // однако надо хрванить текущий элемент в поле было
+tmp.iterator().next();
+    // тут вроде тоже смог возвращаем элемент из iter1 если он там есть, иначе iter2
+    // тут флаг проставляем из какого итера взяли
+    // по идее да - пока есть элты возвращаются из первого, потом из второго типа сумма выходит
+    // noSuchElementException
+tmp.iterator().remove();
+    // тут не успел. UnsupportedOperationException - if the remove operation is not supported by this iterator
+                     IllegalStateException - if t
+    // делегировали тому итератору удаление, который в маркере. Тогда без падений IllegalStateException отработает, тк все cursors в порядке будут
+==========================================================================================================
+2) Задача про проверку строк на отличие на один символ
+// one edit distance - leetcode premium
+
+boolean isOneEditDistance(String s, String t) {
+    int changeCnt = 0;
+
+    String minStr = "";
+    String maxStr = "";
+
+    if (s.length() == Math.min(s.length(), t.length())) {
+          minStr = s;
+          maxStr = t;
+    } else {
+        minStr = t;
+        maxStr = s;
+    }
+
+
+    if (s.length() - t.length() == 1 | s.length() - t.length() == 0 | s.length() - t.length() == -1) {
+
+        for (int i = 0; i < minStr.length; s++) {
+
+            if (minStr.length() - maxStr.length() == 1) {		// перепрыгивать через символ если равны строки или нет
+                if (minStr.charAt(i) != maxStr.charAt(i + 1)) {
+                    changeCnt++;
+            } else {
+                if (minStr.charAt(i) != maxStr.charAt(i)) {
+                    changeCnt++;
+            }
+
+                         }
+        }
+
+    if (changeCnt > 1)
+        return false;
+    else
+        return true;
+    }
+
+    return false;
+}
+
+
+isOneEditDistance("cat", "dog") -> false
+isOneEditDistance("cats", "cat") -> true
+isOneEditDistance("cat", "cut") -> true
+isOneEditDistance("cat", "cast") -> true
+isOneEditDistance("cat", "at") -> true
+isOneEditDistance("abc", "bcbc") -> false
+isOneEditDistance("cat", "acts") -> false
+isOneEditDistance("at", "cat") -> true
+
+// Java program to check if given   // индусы красавцы как всегда. Как же им там хуево видимо, что такие вещи делать приходится.
+// two strings are at distance one.
+
+class GFG
+{
+// Returns true if edit distance
+// between s1 and s2 is one, else false
+static boolean isEditDistanceOne(String s1,
+                                 String s2)
+{
+    // Find lengths of given strings
+    int m = s1.length(), n = s2.length();
+
+    // If difference between lengths is
+    // more than 1, then strings can't
+    // be at one distance
+    if (Math.abs(m - n) > 1)
+        return false;
+
+    int count = 0; // Count of edits
+
+    int i = 0, j = 0;
+    while (i < m && j < n)
+    {
+        // If current characters don't match
+        if (s1.charAt(i) != s2.charAt(j))
+        {
+            if (count == 1)
+                return false;
+
+            // If length of one string is
+            // more, then only possible edit
+            // is to remove a character
+            if (m > n)
+                i++;
+            else if (m< n)
+                j++;
+            else // Iflengths of both strings
+                // is same
+            {
+                i++;
+                j++;
+            }
+
+            // Increment count of edits
+            count++;
+        }
+
+        else // If current characters match
+        {
+            i++;
+            j++;
+        }
+    }
+
+    // If last character is extra
+    // in any string
+    if (i < m || j < n)
+        count++;
+
+    return count == 1;
+}
+
+// driver code
+public static void main (String[] args)
+{
+    String s1 = "gfg";
+    String s2 = "gf";
+    if(isEditDistanceOne(s1, s2))
+        System.out.print("Yes");
+    else
+        System.out.print("No");
+}
+}
+
+// This code is contributed by Anant Agarwal.
+// кароче осознал решение, но родить такое за час под взором...
+=======================================================
+Должна была быть еще какая-то задача, но не успел.
