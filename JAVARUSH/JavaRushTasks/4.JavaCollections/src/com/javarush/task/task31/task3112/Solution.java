@@ -1,5 +1,6 @@
 package com.javarush.task.task31.task3112;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
@@ -33,6 +34,8 @@ public class Solution {
         Path loadPath = downloadDirectory.resolve(loadFilename);
 
         Path tempFile = Files.createTempFile(null, null);
+
+        new File("\ded", "http");
 
         Files.copy(inputStream, tempFile, StandardCopyOption.REPLACE_EXISTING);
         Files.move(tempFile, loadPath, StandardCopyOption.REPLACE_EXISTING);
