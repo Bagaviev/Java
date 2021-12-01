@@ -1,3 +1,25 @@
+Rollback git IDE
+
+Работает.
+Вернуться к пред состоянию в удалённом репо: Git rollback (возможно ещё потребуется сделать ветка>remote branch rebase into current/merge into current
+
+
+Пробел нулевой ширины
+
+Вот такая параша может затесаться в данных
+\u200B\u200b
+Помогло вставить и копировать значение в IDE в строку переменной
+
+
+JavaDoc
+
+/**
+@param, @return
+*/
+method() - типа перед методом
+Так можно подсказки в IDE генерить и html
+
+
 Hashcode equals contract
 
 Если equals ==, hashcode обязательно ==

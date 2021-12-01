@@ -8,8 +8,9 @@ class A {
     @NotNull
     Double x = 2.0;
 
-    public static void tripleX(A a) {
+    public static void tripleX(A a) throws Exception {
         a.x *= 3;
+        throw new Exception("exc");
     }
 
     public static @NotNull A reset(A a) {
@@ -28,7 +29,7 @@ class A {
         Collection<String> col = new ArrayList<>();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         A a = new A();
         System.out.println(a);
         tripleX(a);
