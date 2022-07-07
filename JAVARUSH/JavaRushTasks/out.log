@@ -20887,3 +20887,24 @@ java.net.UnknownHostException: javarush.ru
 2021-12-06 18:18:22 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
 
 2021-12-06 18:18:23 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2022-07-06 22:34:19 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-07-06 22:34:19 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.47 ----------
+
+2022-07-06 22:34:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-07-06 22:34:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-07-06 22:34:21 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-07-06 22:34:22 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-07-06 22:34:22 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-07-06 22:34:22 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-07-06 22:34:22 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2022-07-07 23:01:28 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2022-07-07 23:01:28 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.47 ----------
+
+2022-07-07 23:01:28 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(602) - Waiting for server response.
+2022-07-07 23:01:28 INFO  ApacheHttpClient.refreshUserInfo(305) - responseCode = 200
+2022-07-07 23:01:28 INFO  ApacheHttpClient.refreshUserInfo(311) - User information received.
+2022-07-07 23:01:28 INFO  ApacheHttpClient.startGA(36) - GAService started.
+2022-07-07 23:01:28 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2022-07-07 23:01:36 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2022-07-07 23:01:37 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.

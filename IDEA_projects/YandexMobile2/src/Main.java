@@ -1,9 +1,13 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
 
 public class Main {
+
+    // abc. abd.
+    // true
+
+    // aaa.. bbb..
+    // false
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
