@@ -9,14 +9,14 @@ public class Main {
     // aaa.. bbb..
     // false
 
+    // второй этап был адекватным. Сначала вопросы про платформу разные, далее задача на ревью, часть багов нашел, часть нет.
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         String[] sizeInput = sc.nextLine().split(" ");
 
         System.out.println(convertInput(sizeInput[0]).equals(convertInput(sizeInput[1])));
-
-
     }
 
     private static String convertInput(String str1) {
